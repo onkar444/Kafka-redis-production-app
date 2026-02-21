@@ -62,15 +62,15 @@ cd Kafka-redis-production-app
 ```
 
 2️⃣ Start Infrastructure (Kafka + Redis)
-```
+
 Navigate to the directory containing docker-compose.yml:
-
+```
 docker compose up -d
-
+```
 Verify containers:
-
+```
 docker ps
-
+```
 Expected services:
 
 zookeeper (Port 2181)
@@ -78,7 +78,7 @@ zookeeper (Port 2181)
 kafka (Port 9092)
 
 redis (Port 6379)
-```
+
 
 3️⃣ Run Spring Boot Application
 Linux / Mac
